@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta http-equiv="Content-Type" content="text/html">
+
+	<title>SIGMA - The Business Club</title>
+	<link rel="shortcut icon" href="../img/logo.png" />
+
+	<!-- Bootstrap Core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" media="all" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="../css/bootstrap-glyphicons.css">
+
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="../css/animate.css" rel="stylesheet" />
+
+	<!-- CSS -->
+	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/default.css" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:500,600" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		@media(min-width: 768px) {
+			#hide {
+				display: none;
+			}
+		}
+
+		@media(max-width: 768px) {
+			#hide_desk {
+				display: none;
+			}
+		}
+
+		#card-holder {
+			text-align: center;
+			color: #000;
+			width: 100%;
+		}
+	</style>
+
+	<!-- Javascript -->
+	<script src="../js/modernizr.js"></script> <!-- Modernizr -->
+	<script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="load"></div>
+	</div>
+
+	<div id="hide">
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+			<div class="topnav" style="height: 70px">
+				<a class="navbar-brand" href="../">
+					<img src="../img/logo.png" alt="logo" style="height:55px; width: 55px;" />
+				</a>
+				<div id="myLinks">
+					<a href="../team/">Team Members</a>
+					<a href="../projects/">Projects</a>
+					<a href="../blog/">Blog</a>
+					<a href="../events/" class="active">Events</a>
+					<a href="../resources/">Resources</a>
+					<a href="../contact-us/">Contact Us</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars fa-2x"></i>
+				</a>
+			</div>
+		</nav>
+	</div>
+	<nav class="navbar navbar-custom navbar-fixed-top " id="hide_desk" role="navigation">
+		<div class="container">
+			<div class="navbar-header" style="margin-top: -10px;">
+				<a class="navbar-brand" href="../">
+					<img src="../img/logo.png" alt="logo" style="height:65px; width: 65px;" />
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right navbar-main-collapse" style="margin-top: 10px;">
+				<ul class="nav navbar-nav">
+					<li><a href="../team/">Team Members</a></li>
+					<li><a href="../projects/">Projects</a></li>
+					<li><a href="../blog/">Blog</a></li>
+					<li><a href="../events/" class="active">Events</a></li>
+					<li><a href="../resources/">Resources</a></li>
+					<li><a href="../contact-us/">Contact Us</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+
+	<br><br><br><br><br>
+	
+	<div class="container">
+		<h2 style="text-align: center;">Events</h2>
+		<div id="card-holder">
+		</div>
+	</div>
+
+	<footer>
+		<div style="margin-right:12px">
+			<a href="https://www.facebook.com/sigma.nitt/" target="_blank"><i class="fa fa-social fa-facebook fa-2x"
+					style="color:darkblue"></i></a>
+			<a href="https://www.instagram.com/sigma_nitt/" target="_blank"><i class="fa fa-social fa-instagram fa-2x"
+					style="color:red"></i></a>
+			<a href="https://www.linkedin.com/company/sigma-the-business-club-of-nitt/" target="_blank"><i
+					class="fa fa-social fa-linkedin fa-2x" style="color:darkblue"></i></a>
+			<a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=sigma.nitt@gmail.com"
+				target="_blank"><i class="fa fa-social fa-envelope fa-2x" style="color:red"></i></a>
+			<a href="https://sigma-nitt.medium.com/" target="_blank"><i class="fa fa-social fa-medium fa-2x"
+					style="color:black;"></i></a>
+			<br>
+		</div>
+		<div style="padding: 0; margin-left: 5px;">
+			<p style="font-size: 1.5em;">Weaved with 🕸 by Spider</p>
+		</div>
+	</footer>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="../js/main.js"></script> <!-- Resource jQuery -->
+	<script src="events.js"></script>
+	<!-- Core JavaScript Files -->
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/jquery.easing.min.js"></script>
+	<script src="../js/jquery.scrollTo.js"></script>
+	<script src="../js/wow.min.js"></script>
+	<!-- Custom Theme JavaScript -->
+	<script src="../js/custom.js"></script>
+	<script type="text/javascript">
+		AOS.init();
+		function myFunction() {
+			var x = document.getElementById("myLinks");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			} else {
+				x.style.display = "block";
+			}
+		}
+	</script>
+</body>
+
+</html>
