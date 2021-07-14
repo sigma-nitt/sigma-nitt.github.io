@@ -174,35 +174,35 @@ let Data = [
         headings: "Amazon",
         data: "Software",
         data2: "data/Software/logos/amazon-logo-s3f.png",
-        download: "data/Management/Amazon.docx%20(1).pdf",
+        download: "data/Software/Amazon.docx%20(1).pdf",
     }
     ,
     {
         headings: "NVidia",
         data: "Software",
         data2: "data/Software/logos/nvidia-logo-png-transparent.png",
-        download: "data/Management/Nvidia.docx.pdf",
+        download: "data/Software/Nvidia.docx.pdf",
     }
     ,
     {
         headings: "Oracle",
         data: "Software",
         data2: "data/Software/logos/Oracle-logo.png",
-        download: "data/Management/Oracle.docx.pdf",
+        download: "data/Software/Oracle.docx.pdf",
     }
     ,
     {
-        headings: "Wipro Technologies",
+        headings: "SAP Labs",
         data: "Software",
         data2: "data/Software/logos/1200px-SAP_2011_logo.svg.png",
-        download: "data/Management/SAP%20labs.docx.pdf",
+        download: "data/Software/SAPlabs.pdf",
     }
     ,
     {
         headings: "Wipro Technologies",
         data: "Software",
         data2: "data/Software/logos/Wipro_Logo_New.png",
-        download: "data/Management/Wipro%20ssTechnologies.docx.pdf",
+        download: "data/Software/Wipro%20Technologies.docx.pdf",
     }];
 
 let container = document.getElementById("cardholder");
