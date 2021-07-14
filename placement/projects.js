@@ -76,7 +76,7 @@ let Data = [
         headings: "Axis Bank",
         data: "Management/Analytics",
         data2: "data/Management/logos/axis-bank-logo-vector.png",
-        download: "data/Management/Axis%20Bank.pdf",
+        download: "data/Management/Axisgit Bank.pdf",
     }
     ,
     {
