@@ -80,20 +80,6 @@ let Data = [
     }
     ,
     {
-        headings: "Capegemini",
-        data: "Management/Analytics",
-        data2: "data/Management/logos/Capgemini.png",
-        download: "data/Management/Capgemini.pdf",
-    }
-    ,
-    {
-        headings: "Citi Corp",
-        data: "Management/Analytics",
-        data2: "data/Management/logos/citi.png",
-        download: "data/Management/CITI%20CORP.pdf",
-    }
-    ,
-    {
         headings: "Deloitte",
         data: "Management/Analytics",
         data2: "data/Management/logos/Deloitte_Logo.png",
@@ -154,13 +140,6 @@ let Data = [
         data: "Management/Analytics",
         data2: "data/Management/logos/raam-group-squarelogo-1574235279015.png",
         download: "data/Management/RAAM Group.pdf",
-    }
-    ,
-    {
-        headings: "Tata",
-        data: "Management/Analytics",
-        data2: "data/Management/logos/451px-Tata_logo.svg.png",
-        download: "data/Management/tata.pdf",
     }
     ,
     {
