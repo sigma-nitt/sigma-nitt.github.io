@@ -24,7 +24,7 @@ let fourth_years = [
 		name: "Yash Shroff",
 		roll: "114118101",
 		image: "Yash Shroff.jpeg",
-		position: "Treasurer",
+		position: "Vice President",
 		linkedinURL: "https://www.linkedin.com/in/yash-shroff-a5944714a"
 	},
 	{
@@ -74,13 +74,6 @@ let third_years = [
 		linkedinURL: "https://www.linkedin.com/in/ojshwiprakash/"
 	},
 	{
-		name: "Prateek Mahant",
-		roll: "114119085",
-		image: "Prateek Mahant.jpg",
-		position: "Member",
-		linkedinURL: "https://www.linkedin.com/in/prateek-mahant-744592192/"
-	},
-	{
 		name: "Sundar Raghavan",
 		roll: "110119116",
 		image: "Sundar Raghavan.jpg",
@@ -95,25 +88,11 @@ let third_years = [
 		linkedinURL: "https://www.linkedin.com/in/Nishant-Saravanan"
 	},
 	{
-		name: "Sabarni Paul",
-		roll: "114119096",
-		image: "Sabarni Paul.jpeg",
-		position: "Member",
-		linkedinURL: "https://www.linkedin.com/in/sabarni-paul/"
-	},
-	{
 		name: "Thivyaa Mohan",
 		roll: "103119119",
 		image: "THIVYAA.jpeg",
 		position: "Member",
 		linkedinURL: "https://www.linkedin.com/in/thivyaamohan-nitt"
-	},
-	{
-		name: "Samir Shaikh",
-		roll: "111119106",
-		image: "samir shaikh.jpeg",
-		position: "Member",
-		linkedinURL: "https://www.linkedin.com/in/samir-shaikh-4aa8471a4/"
 	},
 	{
 		name: "Samrudh Rahul S",
@@ -128,13 +107,6 @@ let third_years = [
 		image: "Anand Modi.jpg",
 		position: "Member",
 		linkedinURL: "https://www.linkedin.com/in/anand-modi-3a3995192"
-	},
-	{
-		name: "Pranava Rao G",
-		roll: "114119038",
-		image: "Pranava Rao.jpg",
-		position: "Member",
-		linkedinURL: "https://www.linkedin.com/in/pranavarao-g"
 	},
 	{
 		name: "Aravind Tammireddy",
