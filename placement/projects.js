@@ -76,7 +76,7 @@ let Data = [
         headings: "Axis Bank",
         data: "Management/Analytics",
         data2: "data/Management/logos/axis-bank-logo-vector.png",
-        download: "data/Management/Axisgit Bank.pdf",
+        download: "data/Management/Axis%20Bank.pdf",
     }
     ,
     {
@@ -139,7 +139,7 @@ let Data = [
         headings: "RAAM Group",
         data: "Management/Analytics",
         data2: "data/Management/logos/raam-group-squarelogo-1574235279015.png",
-        download: "data/Management/RAAM Group.pdf",
+        download: "data/Management/RAAM%20Group.pdf",
     }
     ,
     {
