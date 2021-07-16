@@ -69,14 +69,14 @@ let Data = [
         headings: "Ab InBev",
         data: "Management/Analytics",
         data2: "data/Management/logos/Abi.png",
-        download: "data/Management/Ab%20InBev.pdf",
+        download: "data/Management/ABINBEV.docx.pdf",
     }
     ,
     {
         headings: "Axis Bank",
         data: "Management/Analytics",
         data2: "data/Management/logos/axis-bank-logo-vector.png",
-        download: "data/Management/Axis%20Bank.pdf",
+        download: "data/Management/Axis%20Bank%20(1).pdf",
     }
     ,
     {
