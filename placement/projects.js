@@ -55,7 +55,7 @@ let Data = [
         headings: "Tata Steel",
         data: "Core",
         data2: "data/Core/logos/Tata%20steel.jpg",
-        download: "data/Core/Tata%20Steel%20(1).pdf",
+        download: "data/Core/Tata%20Steel.pdf",
     }
     ,
     {
